@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: 
+      args:
+        - PORT=80
+    volumes:
+      - .:/code/app
+
+    
